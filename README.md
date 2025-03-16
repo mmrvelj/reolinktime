@@ -5,7 +5,12 @@ they cannot get correct time after they are started until either you connect wit
 This simple python program fixes this by periodically connecting to camera and setting the correct time.
 
 ## Installation
-To instal copy  `config.ini.default` to `config.ini`, and set configuration details. Then you can start python program.
+
+To install:
+* prepare venv for python 
+* copy  `config.ini.default` to `config.ini`, and set configuration details.
+  
+Then you can start python program.
 
 ## Systemd
 For convenience there is also systemd service file and timer to start it every hour.
