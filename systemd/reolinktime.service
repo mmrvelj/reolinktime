@@ -1,0 +1,13 @@
+[Unit]
+Description=Reolink Set Time
+After=network.target
+
+[Service]
+Type=oneshot
+
+WorkingDirectory=/opt/reolinktime
+ExecStart=/opt/reolinktime/.venv/bin/python reolinkSyncTime.py
+
+StandardOutput=append:/var/log/reolinktime.log
+StandardError=append:/var/log/reolinktime.log
+

@@ -1,0 +1,15 @@
+attrs==25.1.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+idna==3.10
+isodate==0.7.2
+lxml==5.3.1
+onvif-zeep==0.2.12
+platformdirs==4.3.6
+pytz==2025.1
+requests==2.32.3
+requests-file==2.1.0
+requests-toolbelt==1.0.0
+suds-community==1.2.0
+urllib3==2.2.3
+zeep==4.3.1

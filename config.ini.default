@@ -1,0 +1,7 @@
+[CAMERA]
+IP = CAMERA_IP
+PORT = 8000
+USERNAME = camera_user
+PASSWORD = camera_user_passwrd
+WSDL_PATH = /full_path_to/wsdl_files/wsdl/
+
